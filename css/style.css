@@ -131,31 +131,51 @@ body {
     height: 300px;
     background-color: rgba(165, 180, 204, 0);
   }
+  main .container-main .green-2 .g2-con-work-social {
+    width: 100%;
+    height: auto;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container a {
+    margin: 5px;
+    margin-bottom: 12px;
+  }
   main .container-main .green-2 .g2-con-1 {
     width: 100%;
-    height: 90px;
+    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   main .container-main .green-2 .g2-con-1 .g2-con-1-num {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 12px 0px 0px 8px;
-    background-color: rgba(255, 255, 255, 0.219);
+    margin: 12px auto 0px auto;
+    background-color: rgba(250, 250, 250, 0.116);
     width: 65%;
     height: 50%;
     border-radius: 15px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   main .container-main .green-2 .g2-con-1 .g2-con-1-num p {
     font-family: 'Bitter', serif;
     margin-right: 5px;
-    color: #151949;
+    color: #b6e0b8;
     margin: 10px 7px 5px 7px;
     font-size: 16px;
     font-weight: bold;
@@ -164,8 +184,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-family: monospace;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: 2px;
     margin-left: 7px;
     background-color: rgba(114, 221, 120, 0.856);
@@ -358,33 +378,47 @@ body {
     font-size: 23px;
   }
   main .container-main .green-2 {
-    max-width: 500px;
+    width: 100%;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(165, 180, 204, 0);
+  }
+  main .container-main .green-2 .g2-con-work-social {
+    width: 100%;
+    height: auto;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container {
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container a {
+    margin: 5px;
+    margin-bottom: 12px;
   }
   main .container-main .green-2 .g2-con-1 {
-    max-width: 450px;
-    height: 90px;
+    width: 70%;
+    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   main .container-main .green-2 .g2-con-1 .g2-con-1-num {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 12px 0px 0px 8px;
-    background-color: rgba(255, 255, 255, 0.219);
-    width: 45%;
+    margin: 12px auto 0px auto;
+    background-color: rgba(250, 250, 250, 0.116);
+    width: 65%;
     height: 50%;
     border-radius: 15px;
     -webkit-box-pack: justify;
@@ -394,7 +428,7 @@ body {
   main .container-main .green-2 .g2-con-1 .g2-con-1-num p {
     font-family: 'Bitter', serif;
     margin-right: 5px;
-    color: #151949;
+    color: #b6e0b8;
     margin: 10px 7px 5px 7px;
     font-size: 16px;
     font-weight: bold;
@@ -403,8 +437,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-family: monospace;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: 2px;
     margin-left: 7px;
     background-color: rgba(114, 221, 120, 0.856);
@@ -436,10 +470,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 400px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -469,7 +502,7 @@ body {
     color: #1f1d3d;
     background-color: rgba(255, 255, 255, 0.678);
     margin: 3px 12px 3px 3px;
-    padding: 7px 5px 7px 5px;
+    padding: 5px 3px 5px 3px;
     border-radius: 10px;
   }
   main .container-main .green-2 .g2-con-gmail img {
@@ -600,33 +633,47 @@ body {
     font-size: 23px;
   }
   main .container-main .green-2 {
-    max-width: 500px;
+    width: 100%;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(165, 180, 204, 0);
+  }
+  main .container-main .green-2 .g2-con-work-social {
+    width: 100%;
+    height: auto;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container {
     margin-left: auto;
     margin-right: auto;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container a {
+    margin: 5px;
+    margin-bottom: 12px;
   }
   main .container-main .green-2 .g2-con-1 {
-    max-width: 450px;
-    height: 90px;
+    width: 40%;
+    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   main .container-main .green-2 .g2-con-1 .g2-con-1-num {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 12px 0px 0px 8px;
-    background-color: rgba(255, 255, 255, 0.219);
-    width: 45%;
+    margin: 12px auto 0px auto;
+    background-color: rgba(250, 250, 250, 0.116);
+    width: 65%;
     height: 50%;
     border-radius: 15px;
     -webkit-box-pack: justify;
@@ -636,7 +683,7 @@ body {
   main .container-main .green-2 .g2-con-1 .g2-con-1-num p {
     font-family: 'Bitter', serif;
     margin-right: 5px;
-    color: #151949;
+    color: #b6e0b8;
     margin: 10px 7px 5px 7px;
     font-size: 16px;
     font-weight: bold;
@@ -645,8 +692,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-family: monospace;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: 2px;
     margin-left: 7px;
     background-color: rgba(114, 221, 120, 0.856);
@@ -678,10 +725,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 400px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -711,7 +757,7 @@ body {
     color: #1f1d3d;
     background-color: rgba(255, 255, 255, 0.678);
     margin: 3px 12px 3px 3px;
-    padding: 7px 5px 7px 5px;
+    padding: 5px 3px 5px 3px;
     border-radius: 10px;
   }
   main .container-main .green-2 .g2-con-gmail img {
@@ -842,33 +888,47 @@ body {
     font-size: 23px;
   }
   main .container-main .green-2 {
-    max-width: 500px;
+    width: 100%;
     height: 300px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(165, 180, 204, 0);
+  }
+  main .container-main .green-2 .g2-con-work-social {
+    width: 100%;
+    height: auto;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container {
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main .container-main .green-2 .g2-con-work-social .g2-con-work-social-container a {
+    margin: 5px;
+    margin-bottom: 12px;
   }
   main .container-main .green-2 .g2-con-1 {
-    max-width: 450px;
-    height: 90px;
+    width: 400px;
+    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   main .container-main .green-2 .g2-con-1 .g2-con-1-num {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 12px 0px 0px 8px;
-    background-color: rgba(255, 255, 255, 0.219);
-    width: 45%;
+    margin: 12px auto 0px auto;
+    background-color: rgba(82, 22, 22, 0.411);
+    width: 65%;
     height: 50%;
     border-radius: 15px;
     -webkit-box-pack: justify;
@@ -878,7 +938,7 @@ body {
   main .container-main .green-2 .g2-con-1 .g2-con-1-num p {
     font-family: 'Bitter', serif;
     margin-right: 5px;
-    color: #151949;
+    color: #b6e0b8;
     margin: 10px 7px 5px 7px;
     font-size: 16px;
     font-weight: bold;
@@ -887,8 +947,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-family: monospace;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-top: 2px;
     margin-left: 7px;
     background-color: rgba(114, 221, 120, 0.856);
@@ -920,10 +980,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 400px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -953,7 +1012,7 @@ body {
     color: #1f1d3d;
     background-color: rgba(255, 255, 255, 0.678);
     margin: 3px 12px 3px 3px;
-    padding: 7px 5px 7px 5px;
+    padding: 5px 3px 5px 3px;
     border-radius: 10px;
   }
   main .container-main .green-2 .g2-con-gmail img {
